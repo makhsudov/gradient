@@ -1,0 +1,21 @@
+<style type="text/css">
+	html {
+		background: linear-gradient(45deg, #E9B232, #7D4D20); 
+		/* 45градусов, от #цвета, до #цвета */
+		background-size: 300% 300%; 
+		/* увеличение размера полотна для видного градиента */
+		animation: nameAnimation 7s ease infinite; 
+		/* время / начинается медленно, затем ускоряется / бесконечная анимация */
+	}
+	@keyframes nameAnimation {
+	0% {
+		background-position: 0 50%;
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0 50%;
+	}
+}
+</style> 
